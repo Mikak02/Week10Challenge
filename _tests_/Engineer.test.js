@@ -1,5 +1,4 @@
 // child class
-const { TestWatcher } = require('jest');
 const Engineer = require('../lib/Engineer');
 const engineer = new Engineer('sonic', '87654321', 'sonic@email.com', 'soniccodes');
 
