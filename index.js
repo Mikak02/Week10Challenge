@@ -214,7 +214,7 @@ const promptIntern = () => {
             }
         }
     ]).then(answer => {
-        console.log(answers);
+        console.log(answer);
         const intern = new Intern(answer.name, answer.employeeId, answer.email, answer.school);
         teamMembers.push(intern);
         promptMenu();
